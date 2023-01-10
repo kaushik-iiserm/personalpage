@@ -1,0 +1,37 @@
+html {
+    height: 1440px;
+    width: 100%;
+}
+
+nav {
+  /* background: linear-gradient(to bottom, #eeeef4 0%, #3a0404 100%); */
+  /* background-color: rgba(57, 141, 162, 0.771); */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+img {
+    height: 10%;
+    width: 10%;
+}
